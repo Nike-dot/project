@@ -296,10 +296,40 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(250, 241, 247);
+    border-radius:10px ;
 }
 .box1-content{
     height: 85%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box1-content-heading{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.main-feature{
+    height: 50%;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.feature{
+    margin-top: 20px;
+}
+button{
+    height: 15%;
+    width: 80%;
+    border-radius: 10px;
+
 }
 .fourth-part-main-3-box2{
     height: 80%;
@@ -313,10 +343,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(250, 241, 247);
+    border-radius:10px ;
 }
 .box2-content{
     height: 85%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box2-content-heading{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
 .fourth-part-main-3-box3{
     height: 90%;
@@ -330,10 +374,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(250, 241, 247);
+    border-radius:10px ;
 }
 .box3-content{
     height: 85%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box3-content-heading{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.box1-content-button{
+    font-size: 20px;
 }
 /* <!-- <----------------fifth-part----------> */
 .fifth-part{
@@ -341,7 +402,15 @@
     width:100vw ;
     background-color: tomato;
 }
-
+.fifth-head{
+    height: 10%;
+    width: 100%;
+}
+.a1{
+    display: flex;
+    height: 10%;
+    width: 10%;
+}
 /* <!-- <----------------sixth-part----------> */
 .sixth-part{
     height: 30vh;

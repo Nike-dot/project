@@ -3,3 +3,19 @@
     background-color: black;
     color: white;
 }
+.box1-content-button1:hover{
+    transform: scale(1.05);
+}
+.box1-content-button2:hover{
+    transform: scale(1.05);
+}
+.button1:hover{
+    transform: scale(1.05);
+    background-color: white;
+    color: black;
+}
+.button2:hover{
+    transform: scale(1.05);
+    background-color: black;
+    color: white;
+}
